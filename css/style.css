@@ -72,7 +72,7 @@ td {
   outline: 0;
   font-weight: inherit;
   font-style: inherit;
-  font-family: inherit;
+  font-family: "Noto Sans", sans-serif;;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -341,7 +341,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner.jpg") center #000;
+  background: url("images/banner2.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -1283,10 +1283,11 @@ pre .javascript .function {
 .widget a {
   color: #258fb8;
   text-decoration: none;
+  font-weight: bold;
 }
-.widget a:hover {
+/* .widget a:hover {
   text-decoration: underline;
-}
+} */
 .widget ul ul,
 .widget ol ul,
 .widget dl ul,
